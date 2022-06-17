@@ -1,0 +1,33 @@
+body{
+  text-align:center;
+  background-color:red;
+}
+.line{
+ height:6px;
+ width:200px;
+ background-color:blue;
+ margin:8px auto; 
+} 
+.Link{
+float: left;
+color:blueviolet;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 9px;
+padding-left: 9px;
+font-family: 'Goblin One', cursive;        
+}
+.Link:hover{
+background-color:aquamarine;
+}
+.List{
+list-style: none;
+font-family: cursive;
+position: absolute;
+top: 10px;
+right: 30px;
+cursor: pointer;
+}
+html{
+scroll-behavior: smooth;    
+}
